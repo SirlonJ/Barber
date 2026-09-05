@@ -1,0 +1,46 @@
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 6px;
+}
+
+.polaroid {
+  background: #fff;
+  padding: 12px 12px 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.5s ease;
+  position: relative;
+}
+
+/*.polaroid:nth-child(odd)  { transform: rotate(-4deg); }
+.polaroid:nth-child(even) { transform: rotate(4deg); }*/
+
+.polaroid:hover {
+  transform: rotate(0deg) scale(1.4);
+  z-index: 10;
+}
+
+.polaroid img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: 220px;              /* padroniza a altura das fotos */
+}
+
+.polaroid figcaption {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: cursive;
+  color: #333;
+}
+
+.linha-servico {
+  display: flex;              /* nome e preço na mesma linha */
+  justify-content: space-between;  /* nome à esquerda, preço à direita */
+  align-items: baseline;      /* alinha pela linha do texto */
+  padding: 1rem 0;
+}
