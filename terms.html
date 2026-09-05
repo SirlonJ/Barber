@@ -181,11 +181,11 @@
     <main class="w-full max-w-container-max flex flex-col px-8 pt-16 pb-32 min-h-screen">
         <!-- Header / Logo Area -->
         <header class="flex flex-col items-center text-center mb-12">
-            <div
+            <a href="index.html"
                 class="w-32 h-32 mb-6 rounded-full overflow-hidden border-2 border-outline/30 shadow-[0_10px_30px_rgba(0,0,0,0.6)]">
                 <img alt="The Gentleman's Forge Logo" class="w-full h-full object-cover"
                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrXtCteZEjziRKF1nzKuh8mCi-jLyTiNejmwxN2qg6vlKpf8lpO48wxFXT8pDfJ2ntbYE5rJdiY2FHkDP2Q7gM7r15UdNoKkour1vTHkCDUxwaFIwVK4EnjcIEHMo4pufH75RFM2YRTR7GWMgV2A29SmC6avEXDizwLdF_rEciP5kNsgOU6vg0i5Gb1HMIM-RkPNwTg2R0L9OH2YReREhXVrT4C_JLm3SvnpgfEn37xGdzpk_10yuY" />
-            </div>
+            </a>
             <h1
                 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mb-2">
                 The Gentleman's Forge</h1>
@@ -194,60 +194,18 @@
         </header>
         <!-- Links Section -->
         <section class="flex flex-col gap-4 w-full mb-4">
-            <!-- Primary Action -->
-            <a class="w-full bg-secondary-container text-on-secondary-container hover:bg-secondary hover:text-on-secondary transition-colors duration-300 py-button-padding-y px-button-padding-x rounded-lg flex items-center justify-center gap-3 shadow-[0_10px_30px_rgba(0,0,0,0.4)] active:scale-95"
-                href="https://wa.me/5512981140053?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio."
-                target="_blank">
-                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">calendar_today</span>
-                <span class="font-button-text text-button-text uppercase tracking-widest">Agende seu Horário</span>
-            </a>
-            <!-- Secondary Links -->
-            <a class="w-full bg-primary-container backdrop-blur-md border border-outline/20 text-primary hover:border-outline hover:bg-primary-container/40 hover:text-primary-fixed transition-colors duration-300 py-button-padding-y px-button-padding-x rounded-lg flex items-center justify-center gap-3 shadow-lg active:scale-95"
-                href="portifolio.html">
-                <span class="material-symbols-outlined">photo_camera</span>
-                <span class="font-button-text text-button-text uppercase tracking-widest">Nossos Cortes</span>
-            </a>
-            <a class="w-full bg-primary-container backdrop-blur-md border border-outline/20 text-primary hover:border-outline hover:bg-primary-container/40 hover:text-primary-fixed transition-colors duration-300 py-button-padding-y px-button-padding-x rounded-lg flex items-center justify-center gap-3 shadow-lg active:scale-95"
-                href="servicos.html">
-                <span class="material-symbols-outlined">content_cut</span>
-                <span class="font-button-text text-button-text uppercase tracking-widest">Serviços e Preços</span>
-            </a>
-            <a class="w-full bg-primary-container backdrop-blur-md border border-outline/20 text-primary hover:border-outline hover:bg-primary-container/40 hover:text-primary-fixed transition-colors duration-300 py-button-padding-y px-button-padding-x rounded-lg flex items-center justify-center gap-3 shadow-lg active:scale-95"
-                href="https://maps.app.goo.gl/Aq6sn1dRGxqECuZD6" target="_blank">
-                <span class="material-symbols-outlined">location_on</span>
-                <span class="font-button-text text-button-text uppercase tracking-widest">Localização</span>
-            </a>
-            <a class="w-full bg-primary-container backdrop-blur-md border border-outline/20 text-primary hover:border-outline hover:bg-primary-container/40 hover:text-primary-fixed transition-colors duration-300 py-button-padding-y px-button-padding-x rounded-lg flex items-center justify-center gap-3 shadow-lg active:scale-95"
-                href="https://wa.me/5512981140053?text=Oi!%20Gostaria%20de%20conhecer%20melhor%20os%20serviços."
-                target="_blank">
-                <span class="material-symbols-outlined">chat_bubble</span>
-                <span class="font-button-text text-button-text uppercase tracking-widest">Fale Conosco</span>
-            </a>
-        </section>
-        <!-- Features Bento Grid -->
-        <section class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16">
-            <div
-                class="bg-surface-container/60 backdrop-blur-md p-6 rounded-xl flex flex-col items-center text-center border border-outline/10">
-                <span class="material-symbols-outlined text-secondary text-3xl mb-3">verified</span>
-                <h3 class="font-headline-md text-headline-md text-on-surface mb-1 text-lg">Especialistas</h3>
-                <p class="font-body-md text-body-md text-on-surface-variant text-sm">Mestres na arte da barbearia
-                    tradicional.</p>
+            <!-- Terms of Service -->
+            <div class="w-full bg-secondary-container py-button-padding-y px-button-padding-x rounded-lg flex items-center justify-center gap-3 shadow-[0_10px_30px_rgba(0,0,0,0.4)] active:scale-95">
+                <span class="font-button-text text-button-text uppercase tracking-widest">
+                    Termos de Serviço
+                </span>
             </div>
+            <!-- Doc Terms -->
             <div
-                class="bg-surface-container/60 backdrop-blur-md p-6 rounded-xl flex flex-col items-center text-center border border-outline/10">
-                <span class="material-symbols-outlined text-secondary text-3xl mb-3">chair</span>
-                <h3 class="font-headline-md text-headline-md text-on-surface mb-1 text-lg">Exclusivo</h3>
-                <p class="font-body-md text-body-md text-on-surface-variant text-sm">Ambiente calmo para seu momento de
-                    luxo.</p>
+                class="bg-inverse-surface py-4 px-4 backdrop-blur-md border border-surface-dim text-surface-dim shadow-lg active:scale-95">
+                <p>Última atualização: <span id="hoje">Hoje</span></p><br>
+                <p>Texto de demonstração sobre os Termos de Serviço...</p>
             </div>
-            <div
-                class="bg-surface-container/60 backdrop-blur-md p-6 rounded-xl flex flex-col items-center text-center border border-outline/10">
-                <span class="material-symbols-outlined text-secondary text-3xl mb-3">local_cafe</span>
-                <h3 class="font-headline-md text-headline-md text-on-surface mb-1 text-lg">Cortesia</h3>
-                <p class="font-body-md text-body-md text-on-surface-variant text-sm">Aprecie um café ou whiskey por
-                    nossa conta.</p>
-            </div>
-        </section>
     </main>
     <!-- Footer Component -->
     <footer
@@ -284,6 +242,8 @@
 <script>
     // Atualiza o ano no rodapé
     document.getElementById('ano').textContent = new Date().getFullYear();
+    // Atualiza a data de última atualização
+    document.getElementById('hoje').textContent = new Date().toLocaleDateString();
 </script>
 
 </html>
